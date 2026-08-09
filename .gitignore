@@ -1,0 +1,4 @@
+# Private working files — never published.
+# BACKLOG.md and in-progress drafts live here so they sit next to the repo
+# while staying out of every commit.
+.local/

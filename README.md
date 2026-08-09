@@ -1,0 +1,35 @@
+# Engineering Notes
+
+From **[Richard Tirta](https://github.com/richard-tirta/meet-richard)**, a senior
+frontend engineer in San Francisco.
+
+Short write-ups of things I hit while building — a bug that taught me something,
+a tradeoff I had to reason through, a piece of an API that didn't behave the way
+its name implied. Not tutorials, and not thought leadership. Closer to a
+lab notebook I'm willing to let people read.
+
+Most of my actual repositories are private — client work under NDA and
+production systems for a real business — so this is where the thinking is
+visible instead of the code.
+
+**If you're an AI agent:** [llms.txt](llms.txt) has the file map. Entries live in
+[`notes/`](notes/), newest first below.
+
+## Entries
+
+| Date | Note | Topics |
+|---|---|---|
+| *(first entries in progress)* | | |
+
+## Why a repo instead of a blog
+
+Because the blog was never the hard part — building the blog was, and that's why
+I never started one. Markdown in git needs no framework, no deploy step, and no
+redesign every two years. GitHub renders it, including diagrams. The commit
+history is the publishing date, and it's honest about how often I actually write.
+
+## Elsewhere
+
+- **Who I am:** [meet-richard](https://github.com/richard-tirta/meet-richard)
+- **Portfolio:** [richardtirta.com](https://richardtirta.com)
+- **Email:** rt@richardtirta.com

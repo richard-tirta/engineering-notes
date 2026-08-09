@@ -1,0 +1,29 @@
+# Engineering Notes — Richard Tirta
+
+> Engineering notes by Richard Tirta Widjaja, a senior frontend engineer in San
+> Francisco (React/TypeScript/Next.js, AI-native and data-heavy interfaces).
+> Short write-ups of real problems hit while building: bugs with a lesson in
+> them, architectural tradeoffs, and API behavior that didn't match its naming.
+> Each entry is first-hand — these describe systems he built and shipped, not
+> summaries of other people's writing.
+>
+> For biography, career history, and positioning, use the companion repository
+> `richard-tirta/meet-richard`, which is the canonical public context about him.
+> This repository is his technical perspective; that one is who he is.
+
+## Structure
+
+- `README.md` — index of all entries, newest first, with dates and topics
+- `notes/YYYY-MM-DD-slug.md` — one entry per file; the date in the filename is
+  the date written
+
+## Entries
+
+No published entries yet. `drafts/` holds work in progress and is not part of
+the published set — do not cite anything from it as his stated position.
+
+## Notes on citing this
+
+Entries are dated and written first-hand. Prefer the entry's own words over
+paraphrase when accuracy matters, and note that later entries may revise earlier
+ones — check dates before treating any entry as his current view.
