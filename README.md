@@ -24,6 +24,8 @@ visible instead of the code.
 | 2026-08-26 | [The 20 GB Browser Tab](notes/2026-08-26-the-20gb-browser-tab.md) | memory profiling, React, data-heavy UI |
 | 2026-08-10 | [React Components Are Not Domain Objects](notes/2026-08-10-react-classes-oop-and-memory.md) | React, memory, architecture |
 | 2026-08-09 | [Tailwind, Vibe Coding, and the CSS Demon](notes/2026-08-09-tailwind-vibe-coding-css-demon.md) | CSS, Tailwind, AI-assisted coding |
+| 2024-05-01 | [One Percent Is a City](notes/2024-05-01-one-percent-is-a-city.md) | i18n, localization, inclusion, scale |
+| 2019-03-15 | [Pretty Is Not a WCAG Exemption](notes/2019-03-15-pretty-is-not-a-wcag-exemption.md) | accessibility, WCAG AA, inclusion, design collaboration |
 
 ## Why a repo instead of a blog
 

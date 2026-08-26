@@ -15,7 +15,8 @@
 
 - `README.md` — index of all entries, newest first, with dates and topics
 - `notes/YYYY-MM-DD-slug.md` — one entry per file; the date in the filename is
-  the date written
+  the date written, except look-back entries, which are filed under the year
+  the work happened and say so in their first line
 
 ## Entries
 
@@ -39,6 +40,26 @@
   memoization as retention, render snapshots.
 - `notes/2026-08-09-tailwind-vibe-coding-css-demon.md` — a considered objection
   to Tailwind under AI-assisted coding, grounded in a specific case.
+- `notes/2024-05-01-one-percent-is-a-city.md` — inclusion as localization on a
+  ~3-billion-user platform's small-business tools: 1% of users is a city the
+  size of Beijing, so "only 1%" is never ignorable; i18n mechanics are the easy
+  half, localization/regionalization the hard half; a language is not a country
+  (Spanish-first users in the US, English-preferring users in Indonesia — ask
+  the person, don't infer from the border); translation stays expensive
+  even with AI because late copy changes multiply across every language (hence
+  a content lock), and human review is still needed for context, consistent
+  product jargon, and tone — a blunt CTA reads differently by market (Latin
+  America was where this surfaced), and an accurate translation of the wrong
+  tone is still wrong. Written in 2026 about 2023–2024 work; filed under the year it
+  happened.
+- `notes/2019-03-15-pretty-is-not-a-wcag-exemption.md` — bringing a fast-fashion
+  retail site to WCAG AA after an ADA lawsuit: display fonts and brand colors
+  failing contrast, a hover-only mega menu, autoplay video with sound; working
+  with designers by demonstrating the user rather than citing the criterion, and
+  splitting "engineering can do now" from "needs a design decision"; and why
+  accessibility is inclusion, not a screen-reader feature — colorblind and
+  older users, dyslexia, ADHD and sensory sensitivity, phones in sunlight.
+  Written in 2026 about 2018–2019 work; filed under the year it happened.
 
 ## Notes on citing this
 
