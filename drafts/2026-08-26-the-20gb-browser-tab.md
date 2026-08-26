@@ -24,11 +24,7 @@ There were two problems, with two different owners.
 
 **One I did.** My own layer had real overhead: derived datasets cached on component instances where they stayed reachable long after they were stale, and a backend response carrying fields the UI never rendered but the browser was holding anyway.
 
-## What I got wrong
-
-I assumed the whole problem was mine. Not out of humility — out of habit. When your dashboard crashes, you look at your dashboard. If I had gone straight to the refactor I had already decided on, I would have shipped a real improvement, watched the page still blow past its limits, and concluded that the browser simply could not do this.
-
-The profile crossed a team boundary, and I had to follow it there.
+The profile crossed a team boundary. If I had acted on the theory alone, I would have shipped a real improvement to my own layer and watched the page still blow past its limits.
 
 ## Two fixes, in parallel
 
@@ -43,7 +39,5 @@ With both fixes in, page memory dropped by up to 90%, and the ceiling moved from
 I want to be precise about that number: it was measured after *both* changes. Part of the win was another team's fix that I diagnosed. I have seen people tell this kind of story as a solo optimization, and it is weaker that way — the seam is findable, and the actual skill on display was profiling instead of guessing, working out which problem was mine, and bringing evidence across the boundary rather than waiting on it.
 
 The GPU rendering path has its own limit; it surfaces around eight dashboards open at once. This raised the ceiling substantially. It did not remove it. Naming the next constraint is part of the fix.
-
-## The lesson I keep
 
 When something you own is on fire, the profile does not care about your org chart. Follow it, even when it leads into code you cannot change, and do your own half while you wait.
