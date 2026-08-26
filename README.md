@@ -19,7 +19,11 @@ visible instead of the code.
 
 | Date | Note | Topics |
 |---|---|---|
-| *(first entries in progress)* | | |
+| 2026-08-26 | [AI in a Consignment Store](notes/2026-08-26-ai-in-a-consignment-store.md) | LLM features, triage, vision, token cost, product design |
+| 2026-08-26 | [Ask Every Source, Then Compose](notes/2026-08-26-ask-every-source-then-compose.md) | LLM orchestration, MCP, RAG, evals |
+| 2026-08-26 | [The 20 GB Browser Tab](notes/2026-08-26-the-20gb-browser-tab.md) | memory profiling, React, data-heavy UI |
+| 2026-08-10 | [React Components Are Not Domain Objects](notes/2026-08-10-react-classes-oop-and-memory.md) | React, memory, architecture |
+| 2026-08-09 | [Tailwind, Vibe Coding, and the CSS Demon](notes/2026-08-09-tailwind-vibe-coding-css-demon.md) | CSS, Tailwind, AI-assisted coding |
 
 ## Why a repo instead of a blog
 

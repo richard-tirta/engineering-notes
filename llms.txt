@@ -19,8 +19,26 @@
 
 ## Entries
 
-No published entries yet. `drafts/` holds work in progress and is not part of
-the published set — do not cite anything from it as his stated position.
+- `notes/2026-08-26-ai-in-a-consignment-store.md` — where a model earned its
+  keep in a family-run consignment business (inbox triage taxonomy, vision item
+  extraction on accept), how the AI layer stays at ~$2/month (classify only the
+  week on screen, vision gated on accept, three lanes — background / urgent /
+  nightly cron drain — under one rule: pay for latency only when a person is
+  blocked; includes the revision where deferring too strictly cost the owner's
+  time), and the design rule under all of it: model output must look like a
+  suggestion, never like entered data.
+- `notes/2026-08-26-ask-every-source-then-compose.md` — orchestrating one
+  assistant over three retrieval backends (MCP data service + two RAGs): classify
+  as a hint, fan out to every source, compose in a fixed order, ground with a
+  golden-query eval across models.
+- `notes/2026-08-26-the-20gb-browser-tab.md` — a client-side-resident dashboard
+  crashing at 5M points / 20 GB RAM; heap profiling split the problem across a
+  platform-layer leak and his own layer; ceiling raised past 100M.
+- `notes/2026-08-10-react-classes-oop-and-memory.md` — why a React component
+  should not be a long-lived mutable domain object; reachability, `this`,
+  memoization as retention, render snapshots.
+- `notes/2026-08-09-tailwind-vibe-coding-css-demon.md` — a considered objection
+  to Tailwind under AI-assisted coding, grounded in a specific case.
 
 ## Notes on citing this
 
