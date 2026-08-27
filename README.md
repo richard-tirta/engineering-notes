@@ -19,6 +19,8 @@ visible instead of the code.
 
 | Date | Note | Topics |
 |---|---|---|
+| 2026-08-27 | [One Draw Call for 1,686 Atoms](notes/2026-08-27-one-draw-call-for-1686-atoms.md) | WebGL, three.js, instancing, PDB parsing, useSyncExternalStore |
+| 2026-08-27 | [Fifteen Years to My First Test](notes/2026-08-27-fifteen-years-to-my-first-test.md) | testing, E2E, fixtures, habits |
 | 2026-08-26 | [AI in a Consignment Store](notes/2026-08-26-ai-in-a-consignment-store.md) | LLM features, triage, vision, token cost, product design |
 | 2026-08-26 | [Ask Every Source, Then Compose](notes/2026-08-26-ask-every-source-then-compose.md) | LLM orchestration, MCP, RAG, evals |
 | 2026-08-26 | [The 20 GB Browser Tab](notes/2026-08-26-the-20gb-browser-tab.md) | memory profiling, React, data-heavy UI |

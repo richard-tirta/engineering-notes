@@ -20,6 +20,22 @@
 
 ## Entries
 
+- `notes/2026-08-27-one-draw-call-for-1686-atoms.md` — a hands-on lab
+  (molviewer-lab.vercel.app) built out of curiosity about scientific UI: fixed-width PDB
+  parsing of 1HSG (HIV protease + indinavir), one InstancedMesh instead of
+  1,686 meshes (draw calls, `needsUpdate`), and a hand-written external store
+  via useSyncExternalStore shared by 3D, 2D and table — why replace-don't-mutate
+  is the change signal. States plainly that he worked with Claude — it wrote the
+  scaffolding and explained the domain — and which parts he hand-typed
+  (parser, atom cloud, store).
+- `notes/2026-08-27-fifteen-years-to-my-first-test.md` — a candid account of
+  why automated testing lost to feature work for most of his career (agency
+  speed incentives, reactive severity), the self-imposed rule to test on
+  joining a large company, unit tests riding the class-to-hooks refactor, the
+  E2E wall (iframe-gated data + CORS, days lost), and the side door: a field
+  debugging feature that captured real payloads as replayable fixtures made
+  full E2E possible without crossing the boundary. AI wrote most of the
+  test code; he authored the scenarios and chose the fixtures. Next step: TDD.
 - `notes/2026-08-26-ai-in-a-consignment-store.md` — where a model earned its
   keep in a family-run consignment business (inbox triage taxonomy, vision item
   extraction on accept), how the AI layer stays at ~$2/month (classify only the
