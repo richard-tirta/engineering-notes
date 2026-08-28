@@ -1,4 +1,4 @@
-# Fifteen Years to My First Test
+# Years to My First Test
 
 I have wanted automated tests for most of my career. I am writing this at the point where I finally have them, end to end, and am about to try writing them first. It took a long time, and the reasons are not flattering, so here they are.
 
