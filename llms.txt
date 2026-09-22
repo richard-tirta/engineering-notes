@@ -37,11 +37,10 @@
   full E2E possible without crossing the boundary. AI wrote most of the
   test code; he authored the scenarios and chose the fixtures. Next step: TDD.
 - `notes/2026-08-26-ai-in-a-consignment-store.md` — where a model earned its
-  keep in a family-run consignment business (inbox triage taxonomy, vision item
-  extraction on accept), how the AI layer stays at ~$2/month (classify only the
-  week on screen, vision gated on accept, three lanes — background / urgent /
-  nightly cron drain — under one rule: pay for latency only when a person is
-  blocked; includes the revision where deferring too strictly cost the owner's
+  keep in a family-run consignment business (sorting a shared inbox, proposing
+  an item list from photos), how the AI layer stays at ~$2/month (every model
+  call gated on a person's decision; pay for latency only when someone is
+  waiting; includes the revision where deferring too strictly cost the owner's
   time), and the design rule under all of it: model output must look like a
   suggestion, never like entered data.
 - `notes/2026-08-26-ask-every-source-then-compose.md` — orchestrating one
