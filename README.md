@@ -41,3 +41,7 @@ history is the publishing date, and it's honest about how often I actually write
 - **Who I am:** [meet-richard](https://github.com/richard-tirta/meet-richard)
 - **Portfolio:** [richardtirta.com](https://richardtirta.com)
 - **Email:** rt@richardtirta.com
+
+---
+
+© 2019–2026 Richard Tirta Widjaja. All rights reserved. See [LICENSE](LICENSE).
